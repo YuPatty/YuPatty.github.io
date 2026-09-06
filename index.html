@@ -154,6 +154,8 @@
 
     .entry-title strong{font-weight:600;}
     .contact-line{overflow-wrap:anywhere;}
+    strong{ font-weight:600; color:var(--text); }
+    .about strong, .entry-body strong, .sub strong, .pub strong{ font-weight:600; }
 </style>
 </head>
 <body>
@@ -180,8 +182,8 @@
 
   <section class="about">
     <h2>About</h2>
-    <p>I am Pei-Ying Yu, a student in the Department of Computer Science and Information Engineering at National Chung Cheng University. I have consistently ranked in the top 4% of my department and have received the Presidential Honor Award four times. I have built a solid foundation in the six core CS courses as well as VLSI Design, and hold a TOEIC score of 915 (Gold-level certificate), demonstrating strong proficiency in reading technical literature in English.</p>
-    <p>During my undergraduate studies, I joined the Silicon Sensor and System Lab, where I worked under Prof. Jing-Jer Chung on a CNN hardware accelerator for real-time UAV wildfire detection, responsible for RTL architecture design and ASIC backend implementation. Through this work, I came to realize that Edge AI deployment efficiency depends not only on hardware architecture but also on model design itself — which led me to join the Bio-ASP Lab at Academia Sinica, extending my research focus to model compression and edge deployment, where I led the SSEMG-Net cross-architecture knowledge distillation project.</p>
+    <p>I am Pei-Ying Yu, a student in the Department of Computer Science and Information Engineering at National Chung Cheng University. I have consistently ranked in the <strong>top 4%</strong> of my department and have received the <strong>Presidential Honor Award four times</strong>. I have built a solid foundation in the six core CS courses as well as VLSI Design, and hold a <strong>TOEIC score of 915</strong> (Gold-level certificate), demonstrating strong proficiency in reading technical literature in English.</p>
+    <p>During my undergraduate studies, I joined the Silicon Sensor and System Lab, where I worked under Prof. Jing-Jer Chung on a CNN hardware accelerator for real-time UAV wildfire detection, responsible for RTL architecture design and ASIC backend implementation. Through this work, I came to realize that Edge AI deployment efficiency depends not only on hardware architecture but also on model design itself — which led me to join the <strong>Bio-ASP Lab at Academia Sinica</strong>, extending my research focus to model compression and edge deployment, where I led the <strong>SSEMG-Net</strong> cross-architecture knowledge distillation project.</p>
     <p>Beyond technical work, I value teamwork and communication. I have served as Public Relations Chair of my department's student association and led a joint inter-departmental celebration, and I continue to volunteer as a tutor for underprivileged students.</p>
   </section>
 
@@ -193,7 +195,7 @@
           <span class="entry-period">2023 – Present</span>
           <span class="entry-body">
             <span class="entry-title">B.S., Computer Science and Information Engineering</span>, National Chung Cheng University.
-            GPA 4.24 / 4.30; ranked 4th out of 89 students in the department (top 4%) and 4th out of 48 students in the class. Presidential Honor Award recipient, four semesters.
+            <strong>GPA 4.24 / 4.30</strong>; ranked <strong>4th out of 89</strong> students in the department (top 4%) and 4th out of 48 students in the class. <strong>Presidential Honor Award</strong> recipient, four semesters.
           </span>
         </div>
         <ul class="sub">
@@ -255,7 +257,7 @@
     <ul class="entries">
       <li>
         <p class="pub">
-          <span class="authors">Pei-Ying Yu</span>, “SSEMG-Net: Cross-Architecture Knowledge Distillation for Edge AI Deployment,” <span class="venue">submitted to IEEE ICASSP 2027.</span> (First author)
+          <span class="authors">Pei-Ying Yu</span>, “<strong>SSEMG-Net</strong>: Cross-Architecture Knowledge Distillation for Edge AI Deployment,” <span class="venue">submitted to <strong>IEEE ICASSP 2027</strong>.</span> (First author)
         </p>
       </li>
     </ul>
@@ -274,7 +276,7 @@
         </div>
         <ul class="sub">
           <li>Led the SSEMG-Net project, conducting cross-architecture knowledge distillation from a GPU-dependent Mamba backbone to a lightweight convolutional model (TSConvNet).</li>
-          <li>Achieved a 43.27x reduction in model parameters and a 242.4x inference speedup on CPU-only hardware, while retaining 90.5% of the teacher model's denoising performance.</li>
+          <li>Achieved a <strong>43.27x reduction</strong> in model parameters and a <strong>242.4x inference speedup</strong> on CPU-only hardware, while retaining <strong>90.5%</strong> of the teacher model's denoising performance.</li>
         </ul>
       </li>
       <li>
@@ -287,7 +289,7 @@
         </div>
         <ul class="sub">
           <li>Led the project "Real-Time UAV Wildfire Detection: A Lightweight CNN Hardware Accelerator Based on TSMC N16 FinFET," with responsibility for RTL architecture design and ASIC backend implementation.</li>
-          <li>Completed logic synthesis and gate-level simulation on the TSMC N16 process, achieving a 300 MHz clock frequency, 131.84 FPS inference rate, and an approximately 86% reduction in chip area.</li>
+          <li>Completed logic synthesis and gate-level simulation on the TSMC N16 process, achieving a <strong>300 MHz clock frequency</strong>, <strong>131.84 FPS</strong> inference rate, and an approximately <strong>86% reduction</strong> in chip area.</li>
         </ul>
       </li>
     </ul>
@@ -303,7 +305,7 @@
         </div>
         <ul class="sub">
           <li>Built a C-subset compiler from scratch using ANTLR 4.13.2, covering lexical/syntax analysis, semantic analysis, LLVM IR generation, and compile-time optimizations.</li>
-          <li>Created 120 automated regression tests, using GCC output as the reference standard for correctness.</li>
+          <li>Created <strong>120 automated regression tests</strong>, using GCC output as the reference standard for correctness.</li>
         </ul>
       </li>
       <li>
@@ -312,7 +314,7 @@
           <span class="entry-body"><span class="entry-title">404</span> — A 2D Puzzle Game Based on the TCP/IP Five-Layer Model</span>
         </div>
         <ul class="sub">
-          <li>Built with Unity (C#), translating the TCP/IP five-layer model into five in-game levels; implemented A* pathfinding for monster tracking.</li>
+          <li>Built with Unity (C#), translating the TCP/IP five-layer model into five in-game levels; implemented <strong>A* pathfinding</strong> for monster tracking.</li>
           <li>Led system architecture design and project scheduling, and delivered the project presentation entirely in English.</li>
         </ul>
       </li>
@@ -323,7 +325,7 @@
         </div>
         <ul class="sub">
           <li>Built with Python Flask + SQLite; implemented geographic distance calculation using the Haversine formula and Monte Carlo inventory forecasting using pure SQL.</li>
-          <li>Built a collaborative-filtering recommendation system and integrated LLaMA-3.3-70B as an AI dietary assistant.</li>
+          <li>Built a collaborative-filtering recommendation system and integrated <strong>LLaMA-3.3-70B</strong> as an AI dietary assistant.</li>
         </ul>
       </li>
     </ul>
