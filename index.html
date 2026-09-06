@@ -151,6 +151,9 @@
   .pub .venue{ color:var(--muted); }
 
   footer{ margin-top:80px; padding-top:24px; border-top:1px solid var(--rule); color:var(--muted); font-size:13.5px; }
+
+    .entry-title strong{font-weight:600;}
+    .contact-line{overflow-wrap:anywhere;}
 </style>
 </head>
 <body>
@@ -177,9 +180,9 @@
 
   <section class="about">
     <h2>About</h2>
-    <p>I am Pei-Ying Yu, a student in the Department of Computer Science and Information Engineering at National Chung Cheng University. I have maintained a cumulative standing in the top 4% of my department throughout my studies and have received the Presidential Honor Award four times. I have built a solid foundation in the six core CS courses as well as VLSI Design, and hold a TOEIC score of 915 (Gold-level certificate), giving me strong proficiency in reading English technical literature.</p>
-    <p>During my undergraduate studies, I joined the Silicon Sensor and System Lab, where under Prof. Jing-Jer Chung I worked on a CNN hardware accelerator for real-time UAV wildfire detection, responsible for RTL architecture design and ASIC backend implementation. Through this work, I came to realize that Edge AI deployment efficiency depends not only on hardware architecture but also on model design itself — which led me to join the Bio-ASP Lab at Academia Sinica, extending my research focus to model compression and edge deployment, where I led the SSEMG-Net cross-architecture knowledge distillation project.</p>
-    <p>Beyond technical work, I value teamwork and communication. I have served as Public Relations Chair of my department's student association and as event lead for a joint inter-department celebration, and I continue to volunteer as a tutor for underprivileged students.</p>
+    <p>I am Pei-Ying Yu, a student in the Department of Computer Science and Information Engineering at National Chung Cheng University. I have consistently ranked in the top 4% of my department and have received the Presidential Honor Award four times. I have built a solid foundation in the six core CS courses as well as VLSI Design, and hold a TOEIC score of 915 (Gold-level certificate), demonstrating strong proficiency in reading technical literature in English.</p>
+    <p>During my undergraduate studies, I joined the Silicon Sensor and System Lab, where I worked under Prof. Jing-Jer Chung on a CNN hardware accelerator for real-time UAV wildfire detection, responsible for RTL architecture design and ASIC backend implementation. Through this work, I came to realize that Edge AI deployment efficiency depends not only on hardware architecture but also on model design itself — which led me to join the Bio-ASP Lab at Academia Sinica, extending my research focus to model compression and edge deployment, where I led the SSEMG-Net cross-architecture knowledge distillation project.</p>
+    <p>Beyond technical work, I value teamwork and communication. I have served as Public Relations Chair of my department's student association and led a joint inter-departmental celebration, and I continue to volunteer as a tutor for underprivileged students.</p>
   </section>
 
   <section>
@@ -190,11 +193,11 @@
           <span class="entry-period">2023 – Present</span>
           <span class="entry-body">
             <span class="entry-title">B.S., Computer Science and Information Engineering</span>, National Chung Cheng University.
-            GPA 4.24 / 4.30; ranked 4 / 89 in department (top 4%), 4 / 48 in class. Presidential Honor Award recipient, four semesters.
+            GPA 4.24 / 4.30; ranked 4th out of 89 students in the department (top 4%) and 4th out of 48 students in the class. Presidential Honor Award recipient, four semesters.
           </span>
         </div>
         <ul class="sub">
-          <li>Selected Coursework (Perfect Score): VLSI Design, Computer Organization, Operating Systems, Algorithms, Data Structures, Discrete Mathematics, Linear Algebra, Digital Electronics, Probability, Systems Programming, Network Security — Attack &amp; Defense</li>
+          <li>Selected Coursework (100/100): VLSI Design, Computer Organization, Operating Systems, Algorithms, Data Structures, Discrete Mathematics, Linear Algebra, Digital Electronics, Probability, Systems Programming, Network Security — Attack &amp; Defense</li>
         </ul>
       </li>
     </ul>
@@ -270,8 +273,8 @@
           </span>
         </div>
         <ul class="sub">
-          <li>Led the SSEMG-Net project, distilling a GPU-dependent Mamba backbone into a lightweight convolutional model (TSConvNet) across architectures.</li>
-          <li>Achieved a 43.27x reduction in model parameters and a 242.4x inference speedup on CPU-only hardware, while retaining 90.5% of the original denoising performance.</li>
+          <li>Led the SSEMG-Net project, conducting cross-architecture knowledge distillation from a GPU-dependent Mamba backbone to a lightweight convolutional model (TSConvNet).</li>
+          <li>Achieved a 43.27x reduction in model parameters and a 242.4x inference speedup on CPU-only hardware, while retaining 90.5% of the teacher model's denoising performance.</li>
         </ul>
       </li>
       <li>
@@ -283,8 +286,8 @@
           </span>
         </div>
         <ul class="sub">
-          <li>Led "Real-Time UAV Wildfire Detection: A Lightweight CNN Hardware Accelerator Based on TSMC N16 FinFET," responsible for RTL architecture design and ASIC backend implementation.</li>
-          <li>Completed logic synthesis and gate-level simulation on the TSMC N16 process, achieving a 300 MHz clock frequency, 131.84 FPS inference rate, and an ~86% reduction in chip area.</li>
+          <li>Led the project "Real-Time UAV Wildfire Detection: A Lightweight CNN Hardware Accelerator Based on TSMC N16 FinFET," with responsibility for RTL architecture design and ASIC backend implementation.</li>
+          <li>Completed logic synthesis and gate-level simulation on the TSMC N16 process, achieving a 300 MHz clock frequency, 131.84 FPS inference rate, and an approximately 86% reduction in chip area.</li>
         </ul>
       </li>
     </ul>
@@ -319,7 +322,7 @@
           <span class="entry-body"><span class="entry-title">FoodSaver</span> — A Cross-Convenience-Store Near-Expiry Product Platform</span>
         </div>
         <ul class="sub">
-          <li>Built with Python Flask + SQLite; implemented Haversine geo-distance calculation and Monte Carlo inventory forecasting using pure SQL.</li>
+          <li>Built with Python Flask + SQLite; implemented geographic distance calculation using the Haversine formula and Monte Carlo inventory forecasting using pure SQL.</li>
           <li>Built a collaborative-filtering recommendation system and integrated LLaMA-3.3-70B as an AI dietary assistant.</li>
         </ul>
       </li>
